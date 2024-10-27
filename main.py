@@ -17,7 +17,7 @@ RED = (188, 39, 50)
 DARK_GREY = (80, 78, 81)
 LIGHT_GREY = (200, 200, 200)
 BROWN = (160, 132, 71)
-GOLD = (255, 215, 0)  # Color for JWST
+GOLD = (255, 215, 0)  
 FONT = pygame.font.SysFont("comicsans", 16)
 NAME_FONT = pygame.font.SysFont("comicsans", 14)
 
@@ -29,14 +29,14 @@ class Spacecraft:
         self.radius = radius
         self.color = color
         self.orbital_speed = orbital_speed
-        self.angle = math.pi  # Start from L2 point (opposite to Sun)
+        self.angle = math.pi  
         self.x = 0
         self.y = 0
         self.orbit = []
         self.name = name
 
     def update_position(self, time):
-        # JWST stays at L2 point (roughly opposite to Sun relative to Earth)
+        
         self.angle = math.atan2(self.parent_planet.y, self.parent_planet.x) + math.pi
 
         self.x = self.parent_planet.x + self.distance * math.cos(self.angle)
@@ -58,7 +58,7 @@ class Spacecraft:
                 updated_points.append((x_point, y_point))
             pygame.draw.lines(win, self.color, False, updated_points, 1)
 
-        # Draw JWST as a distinctive shape (hexagon for mirror)
+       
         points = []
         for i in range(6):
             angle = math.pi / 3 * i + math.pi / 6
@@ -67,10 +67,10 @@ class Spacecraft:
             points.append((point_x, point_y))
 
         pygame.draw.polygon(win, self.color, points)
-        # Draw central dot
+        
         pygame.draw.circle(win, WHITE, (x, y), self.radius / 3)
 
-        # Draw name
+        
         name_text = NAME_FONT.render(self.name, 1, self.color)
         win.blit(name_text, (x - name_text.get_width() / 2, y - self.radius - 20))
 
@@ -223,10 +223,10 @@ def main():
     earth = Planet(-1 * Planet.AU, 0, 16, BLUE, 5.9742 * 10 ** 24, "Earth")
     earth.y_vel = 29.783 * 1000
 
-    # Add Earth's moon
+    # Adding Earth's moon
     earth.add_moon(Planet.AU / 40, 8, LIGHT_GREY, 7.34767309 * 10 ** 22, 0.025, "Moon")
 
-    # Add JWST at L2 point
+    # Adding JWST at L2 point
     earth.add_spacecraft(Planet.AU / 30, 6, GOLD, 0, "JWST")
 
     mars = Planet(-1.524 * Planet.AU, 0, 12, RED, 6.39 * 10 ** 23, "Mars")
