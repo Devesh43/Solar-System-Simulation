@@ -1,5 +1,5 @@
 # Solar-System-Simulation
-This is a Python-based planet simulation project using Pygame. The simulation visualizes celestial bodies, including planets, moons, and spacecraft, moving in a solar system-like environment. The project features the movement of inner planets around the Sun, their respective moons, and a space telescope (JWST) stationed at the L2 point.
+This is a Python-based planet simulation project using Pygame. The simulation visualizes celestial bodies, including planets, moons, and spacecraft, moving in a solar system-like environment. The project features the movement of inner planets around the Sun, with their respective moons, and a space telescope (JWST) stationed at the L2 point.
 
 
 # Features
