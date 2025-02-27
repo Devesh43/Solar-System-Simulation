@@ -10,7 +10,7 @@ The project aims to bring the beauty of celestial mechanics to life with **reali
 
 ### **1. Realistic Orbital Mechanics**  
 - Planets and moons follow elliptical orbits based on **Newton’s laws of motion** and **gravitational attraction**.  
-- Orbital speeds and distances are proportional to real-world values, ensuring an accurate representation of celestial motion.  
+- Orbital speeds and distances are proportional to real-world values, thus ensuring an accurate representation of celestial motion.  
 
 ### **2. Celestial Bodies Modeled in the Simulation**  
 - **The Sun** – The central gravitational body holding the system together.  
