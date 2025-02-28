@@ -62,7 +62,7 @@ Ensure the `"Interstellar Soundtrack.mp3"` file is present in the project direct
 python solar_system.py
 ```
 
-Once executed, the simulation will visualize planetary motion with smooth animations and background music.  
+Once executed, this simulation will visualize planetary motion with smooth animations and background music.  
 
 ---
 
