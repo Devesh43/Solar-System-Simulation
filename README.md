@@ -15,7 +15,7 @@ The project aims to bring the beauty of celestial mechanics to life with **reali
 ### **2. Celestial Bodies Modeled in the Simulation**  
 - **The Sun** – The central gravitational body holding the system together.  
 - **Mercury** – The closest planet to the Sun, moving at the highest orbital speed.  
-- **Venus** – A rocky planet with a thick atmosphere.  
+- **Venus** – A rocky planet with a thick and dense atmosphere.  
 - **Earth & Moon** – The Earth’s Moon orbits around it while Earth revolves around the Sun.  
 - **Mars & its Moons (Phobos & Deimos)** – Two small irregularly shaped moons orbiting Mars.  
 - **Spacecraft (JWST)** – The **James Webb Space Telescope (JWST)** is stationed at **L2**, orbiting the Sun in sync with Earth.  
