@@ -2,7 +2,7 @@
 
 This project is a Python-based simulation of planetary motion using the **Pygame** library. The simulation visualizes celestial bodies—planets, moons, and spacecraft—moving in a solar system-like environment based on **Newtonian physics**. It provides an interactive and educational experience by accurately depicting the movement of planets around the Sun and the space telescope (JWST) orbiting at the Lagrange-2 (L2) point.  
 
-The project aims to bring the beauty of celestial mechanics to life with **realistic orbital movement**, dynamic planetary interactions, and a visually engaging display of our solar system's inner planets. To enhance the experience, **background music from the *Interstellar Soundtrack*** plays during the simulation, immersing users in the wonders of space.  
+The project aims to bring the beauty  of celestial mechanics to life with **realistic orbital movements**, dynamic planetary interactions, and a visually engaging display of our solar system's inner planets. To enhance the experience, **background music from the *Interstellar Soundtrack*** plays during the simulation, immersing users in the wonders of space.  
 
 ---
 
